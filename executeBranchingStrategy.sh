@@ -6,6 +6,7 @@
                 cd ${array[1]}
                 git fetch --all
                 git checkout -b ${array[1]}
+                git branch --set-upstream-to=origin/${array[1]}
                 git pull
                 cd ../
             fi
