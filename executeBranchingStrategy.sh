@@ -10,4 +10,4 @@
                 cd ../
             fi
            IFS=''
-done < remoteBranches.txt
+done < $1
